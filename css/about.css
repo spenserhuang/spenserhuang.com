@@ -1,0 +1,197 @@
+/********************************/
+/* INTRO */
+/*********************************/
+
+#intro {
+    padding: 0 10%;
+}
+
+#intro > h1 {
+    font-family: GothamMedium;
+    font-size: 5em;
+    margin: 80px 0 0 0;
+}
+
+#intro > h3 {
+    font-family: BariolThin;
+    font-size: 2em;
+    margin-bottom: 5%;
+}
+
+
+/********************************/
+/* BIO */
+/*********************************/
+
+#bio {
+    margin: 150px 15% 150px 15%;
+}
+
+#bio > h3 {
+    font-family: GothamMedium;
+    font-size: 3em;
+    margin: 60px 0;
+}
+
+
+#bio-flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-items: flex-start;
+    margin: 0 5%;
+}
+
+.bio-row {
+    flex-basis: 50%;
+    flex-grow: 1;
+    height: 100%;
+}
+
+.bio-row:nth-child(1) {
+    margin-bottom: 30px;
+}
+
+.bio-row > p {
+    line-height:  1.5em;
+    font-size: 1.5em;
+    font-family: BariolRegular;
+    margin: 0;
+    padding-right: 35px;
+}
+
+.bio-row > img {
+    width: 100%;
+}
+
+hr {
+    width: 275px;
+    margin-top: 0;
+    margin: 0;
+    height: 0.1px;
+    border: none;
+}
+
+
+/********************************/
+/* CARES */
+/*********************************/
+#what-i-care {
+    margin: 150px 15% 150px 15%;
+}
+
+#what-i-care > h3 {
+    font-family: GothamMedium;
+    font-size: 3em;
+    margin: 60px 0;
+}
+
+#care {
+    padding-top: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0;
+}
+
+.care-row {
+    flex-grow: 1;
+    flex-basis: 10%;
+    text-align: center;
+}
+
+.care-row > img {
+    width: 150px;
+    height: 150px;
+}
+
+.care-row > img:nth-child(1) {
+    width: 100px;
+    height: 100px;
+}
+
+.care-row > h2 {
+    font-family: BariolRegular;
+    font-weight: 500;
+    font-size: 1.25em;
+    margin-top: 25px;
+    margin-bottom: 0;
+}
+
+/********************************/
+/* QUOTES */
+/*********************************/
+#quotes {
+    margin: 150px 15% 150px 15%;
+}
+
+#quotes > h3 {
+    font-family: GothamMedium;
+    font-size: 3em;
+    margin: 60px 0;
+}
+
+#life-quotes {
+    margin: 0 5%;
+}
+
+#life-quotes > h2 {
+    line-height: 1.75em;
+    margin: 50px 0;
+    font-family: BariolRegularItalic;
+    font-weight: 400;
+}
+
+/********************************/
+/* CONTACT */
+/*********************************/
+
+#contact {
+    margin: 150px 15% 150px 15%;
+}
+
+#contact > h3 {
+    font-family: GothamMedium;
+    font-size: 3em;
+    margin: 60px 0;
+}
+
+#contact-info {
+    text-align: center;
+    margin: 0 5%;
+}
+
+#contact-image {
+    width: 75%;
+    margin: 0 auto;
+}
+
+#contact-image > img {
+    width: 100%;
+}
+
+#contact-info > h2 {
+    line-height: 1.5em;
+    margin: 2em 0;
+    font-family: BariolRegular;
+    font-weight: 400;
+    margin: 50px 0;
+}
+
+.social-media {
+    width: 65px;
+    height: 65px;
+    margin: 0 25px;
+}
+
+#contact-info > a > button {
+    width: 150px;
+    font-size: 1.5em;
+    height: 2.5em;
+    border: 3px solid black;
+    background: #fff;
+    font-family: BariolRegular;
+    color: black;
+}

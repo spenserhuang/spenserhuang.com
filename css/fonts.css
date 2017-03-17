@@ -1,0 +1,129 @@
+@font-face {
+    font-family: 'GothamBlack';
+    src: url('../fonts/gotham/Gotham-Black.ttf');
+}
+
+@font-face {
+    font-family: 'GothamBlackItalic';
+    src: url('../fonts/gotham/Gotham-BlackItalic.ttf');
+}
+
+@font-face {
+    font-family: 'GothamBold';
+    src: url('../fonts/gotham/Gotham-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'GothamBoldItalic';
+    src: url('../fonts/gotham/Gotham-BoldItalic.ttf');
+}
+
+@font-face {
+    font-family: 'GothamBookItalic';
+    src: url('../fonts/gotham/Gotham-BookItalic.otf');
+}
+
+@font-face {
+    font-family: 'GothamLight';
+    src: url('../fonts/gotham/Gotham-Light.ttf');
+}
+
+@font-face {
+    font-family: 'GothamLightItalic';
+    src: url('../fonts/gotham/Gotham-LightItalic.ttf');
+}
+
+@font-face {
+    font-family: 'GothamMedium';
+    src: url('../fonts/gotham/Gotham-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'GothamMediumItalic';
+    src: url('../fonts/gotham/Gotham-MediumItalic.ttf');
+}
+
+@font-face {
+    font-family: 'GothamThin';
+    src: url('../fonts/gotham/Gotham-Thin.ttf');
+}
+
+@font-face {
+    font-family: 'GothamThinItalic';
+    src: url('../fonts/gotham/Gotham-ThinItalic.ttf');
+}
+
+@font-face {
+    font-family: 'GothamUltra';
+    src: url('../fonts/gotham/Gotham-Ultra.ttf');
+}
+
+@font-face {
+    font-family: 'GothamUltraItalic';
+    src: url('../fonts/gotham/Gotham-UltraItalic.ttf');
+}
+
+@font-face {
+    font-family: 'GothamXLight';
+    src: url('../fonts/gotham/Gotham-XLight.ttf');
+}
+
+@font-face {
+    font-family: 'GothamXLightItalic';
+    src: url('../fonts/gotham/Gotham-XLightItalic.ttf');
+}
+
+@font-face {
+    font-family: 'BariolBoldItalic';
+    src: url('../fonts/bariol/Bariol_Bold_Italic.otf');
+}
+
+@font-face {
+    font-family: 'BariolBold';
+    src: url('../fonts/bariol/Bariol_Bold.otf');
+}
+
+@font-face {
+    font-family: 'BariolLightItalic';
+    src: url('../fonts/bariol/Bariol_Light_Italic.otf');
+}
+
+@font-face {
+    font-family: 'BariolLight';
+    src: url('../fonts/bariol/Bariol_Light.otf');
+}
+
+@font-face {
+    font-family: 'BariolRegularItalic';
+    src: url('../fonts/bariol/Bariol_Regular_Italic.otf');
+}
+
+@font-face {
+    font-family: 'BariolRegular';
+    src: url('../fonts/bariol/Bariol_Regular.otf');
+}
+
+@font-face {
+    font-family: 'BariolThinItalic';
+    src: url('../fonts/bariol/Bariol_Thin_Italic.otf');
+}
+
+@font-face {
+    font-family: 'BariolThin';
+    src: url('../fonts/bariol/Bariol_Thin.otf');
+}
+
+@font-face {
+    font-family: 'AvenirBook';
+    src: url('../fonts/avenir/AvenirLTStd-Book.otf');
+}
+
+@font-face {
+    font-family: 'AvenirLight';
+    src: url('../fonts/avenir/AvenirLTStd-Light.otf');
+}
+
+@font-face {
+    font-family: 'AvenirRoman';
+    src: url('../fonts/avenir/AvenirLTStd-Roman.otf');
+}

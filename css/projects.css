@@ -1,0 +1,121 @@
+/********************************/
+/* INTRO */
+/*********************************/
+
+#intro {
+    padding: 0 10%;
+}
+
+#intro > h1 {
+    font-family: GothamMedium;
+    font-size: 5em;
+    margin: 80px 0 0 0;
+}
+
+#intro > h3 {
+    font-family: BariolThin;
+    font-size: 2em;
+    margin-bottom: 5%;
+}
+
+/********************************/
+/* PROJECTS */
+/*********************************/
+
+a {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.projects {
+    margin: 150px 15% 150px 15%;
+}
+
+#my-ventures {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.ventures {
+    flex-basis: 50%;
+    flex-grow: 1;
+    position: relative;
+}
+
+.ventures-img {
+    width: 100%;
+    display: block;
+    height: auto;
+}
+
+hr {
+    width: 320px;
+    margin: 0;
+    margin-top: -0.1px;
+}
+
+figure {
+    margin: 0;
+}
+
+.ventures-figure {
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+
+.ventures-figure > img {
+    display: block;
+    max-width: 100%;
+}
+
+.ventures-content {
+    text-align: center;
+    opacity: 0;
+    display: block;
+    position: absolute;
+    width: 100%;
+    color: #FFF;
+    left: 0;
+    bottom: 0;
+    padding: 1.5em;
+    z-index: 2;
+    height: 100%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: rgba(0,0,0,0.9);
+    -webkit-transition: opacity .3s ease-in-out;
+    transition: opacity .3s ease-in-out;
+}
+
+.ventures-content > h2 {
+    font-size: 2.5em;
+    font-family: GothamMedium;
+    margin-top: 5px;
+    margin-bottom: 0;
+    color: #FFF;
+}
+
+.ventures-content > h3 {
+    font-family: GothamThin;
+    margin-top: 5px;
+    margin-bottom: 0;
+    color: #FFF;
+}
+
+.titles {
+    padding: 18%;
+}
+
+.ventures-content > p {
+    margin-top: 50px;
+    font-family: GothamThin;
+    font-size: 1.5em;
+    color: #FFF;
+}
+
+.ventures-figure:hover .ventures-content {
+    opacity: 1;
+}

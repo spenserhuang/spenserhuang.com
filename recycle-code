@@ -1,0 +1,86 @@
+<!--
+**********************************************
+    PAGE FOUR
+**********************************************
+ -->
+
+<div class="page-intros" id="about-intro">
+    <h2>PAST PROJECTS</h2>
+</div>
+
+<div class="page-grids" id="pg4">
+    <div class="pg4-row" id="pg4-row-1">
+        <img src="images/travel-stock.jpg" class="pg4-img" id="pg4-img-1">
+        <h3 class="pg4-img-text pg4-img-text-1">travel</h3>
+        <p class="pg4-img-text pg4-img-text-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+    </div>
+    <div class="pg4-row" id="pg4-row-2">
+        <img src="images/travel-stock.jpg" class="pg4-img" id="pg4-img-2">
+        <h3 class="pg4-img-text pg4-img-text-2">Venu</h3>
+        <p class="pg4-img-text pg4-img-text-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+    </div>
+    <div class="pg4-row" id="pg4-row-3">
+        <img src="images/travel-stock.jpg" class="pg4-img" id="pg4-img-3">
+        <h3 class="pg4-img-text pg4-img-text-3">NU AKPsi</h3>
+        <p class="pg4-img-text pg4-img-text-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+    </div>
+    <div class="pg4-row" id="pg4-row-4">
+        <img src="images/travel-stock.jpg" class="pg4-img" id="pg4-img-4">
+        <h3 class="pg4-img-text pg4-img-text-4">Dead Sea Hostel</h3>
+        <p class="pg4-img-text pg4-img-text-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+    </div>
+    <div class="pg4-row" id="pg4-row-5">
+        <img src="images/travel-stock.jpg" class="pg4-img" id="pg4-img-5">
+        <h3 class="pg4-img-text pg4-img-text-5">Education</h3>
+        <p class="pg4-img-text pg4-img-text-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+    </div>
+    <div class="pg4-row" id="pg4-row-6">
+        <img src="images/travel-stock.jpg" class="pg4-img" id="pg4-img-6">
+        <h3 class="pg4-img-text pg4-img-text-6">NBN</h3>
+        <p class="pg4-img-text pg4-img-text-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+    </div>
+</div>
+
+
+/*********************************/
+/* PAGE FOUR */
+/*********************************/
+
+#pg4 {
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.pg4-row {
+    position: relative;
+    flex-grow: 3;
+    flex-basis: 33.3%;
+}
+
+.pg4-row > img {
+    width: 100%;
+    height: 100%;
+}
+
+.pg4-row > h3 {
+    z-index: 1;
+    text-align: center;
+    font-family: GothamLight;
+    position: absolute;
+    top: 10%;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.pg4-row > p {
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    padding: 20% 10%;
+    margin: 0;
+    line-height: 1.5em;
+    font-family: BariolRegular;
+    font-size: 1.3em;
+}

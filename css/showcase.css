@@ -1,0 +1,52 @@
+/********************************/
+/* INTRO */
+/*********************************/
+
+#intro {
+    padding: 0 10%;
+}
+
+#intro > h1 {
+    font-family: GothamMedium;
+    font-size: 5em;
+    margin: 80px 0 0 0;
+}
+
+#intro > h3 {
+    font-family: BariolThin;
+    font-size: 2em;
+    margin-bottom: 5%;
+}
+
+
+/********************************/
+/* PAGES */
+/*********************************/
+
+.pages {
+    margin: 150px 15% 150px 15%;
+}
+
+.pages > img {
+    width: 100%;
+    border: 0.5px solid #ddd;
+}
+
+.page-description {
+    margin: 50px 35% 50px 10%;
+}
+
+.page-description > h3 {
+    line-height: 1.5em;
+    font-size: 2em;
+    margin: 0;
+    margin-bottom: 10px;
+    font-family: GothamMedium;
+}
+
+.page-description > p {
+    margin: 0;
+    line-height: 1.5em;
+    font-size: 1.4em;
+    font-family: BariolRegular;
+}
