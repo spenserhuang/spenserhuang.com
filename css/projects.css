@@ -13,7 +13,7 @@
 }
 
 #intro > h3 {
-    font-family: BariolThin;
+    font-family: AvenirLight;
     font-size: 2em;
     margin-bottom: 5%;
 }
@@ -99,7 +99,8 @@ figure {
 }
 
 .ventures-content > h3 {
-    font-family: GothamThin;
+    font-family: AvenirLight;
+    font-style: italic;
     margin-top: 5px;
     margin-bottom: 0;
     color: #FFF;
@@ -111,7 +112,7 @@ figure {
 
 .ventures-content > p {
     margin-top: 50px;
-    font-family: GothamThin;
+    font-family: AvenirLight;
     font-size: 1.5em;
     color: #FFF;
 }

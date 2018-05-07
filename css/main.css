@@ -88,7 +88,7 @@
 }
 
 .pg2-row > ul {
-    font-family: BariolRegular;
+    font-family: AvenirLight;
     list-style: none;
     font-size: 1.5em;
     line-height: 1.5em;
@@ -163,7 +163,8 @@ hr {
 }
 
 .pg3-text > h3 {
-    font-family: GothamLight;
+    font-family: AvenirLight;
+    font-style: italic;
     font-size: 1.2em;
     bottom: 3em;
     margin: 0;
@@ -171,7 +172,7 @@ hr {
 }
 
 .pg3-text > p {
-    font-family: GothamLight;
+    font-family: AvenirLight;
     font-size: 1.25em;
     line-height: 1.5em;
     margin: 15px 0;
@@ -261,12 +262,13 @@ figure {
 }
 
 .ventures-content > h3 {
-    font-family: GothamThin;
+    font-family: AvenirLight;
+    font-style: italic;
     color: #fff;
 }
 
 .ventures-content > p {
-    font-family: GothamThin;
+    font-family: AvenirLight;
     color: #fff;
 }
 .ventures-figure:hover .ventures-content {
@@ -336,7 +338,7 @@ figure {
 }
 
 .pg5-row > p {
-    font-family: BariolRegular;
+    font-family: AvenirLight;
     color: #212121;
     font-size: 1.5em;
     margin: 0.5em 0 1.5em 0;
@@ -354,4 +356,3 @@ input {
     color: #212121;
 
 }
-

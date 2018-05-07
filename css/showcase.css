@@ -13,7 +13,7 @@
 }
 
 #intro > h3 {
-    font-family: BariolThin;
+    font-family: AvenirLight;
     font-size: 2em;
     margin-bottom: 5%;
 }
@@ -48,5 +48,5 @@
     margin: 0;
     line-height: 1.5em;
     font-size: 1.4em;
-    font-family: BariolRegular;
+    font-family: AvenirLight;
 }
