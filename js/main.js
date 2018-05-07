@@ -187,9 +187,15 @@ function initMap() {
     var im = {lat: 40.8174, lng: 111.7663};
     var cl = {lat: 41.4993, lng: -81.6944};
     var dc = {lat: 38.9072, lng: -77.0369};
+    var al = {lat: 41.1533, lng: 20.1683};
+    var ko = {lat: 42.6675, lng: 21.16619};
+    var mu = {lat: 48.1351, lng: 11.5820};
+    var vn = {lat: 54.6872, lng: 25.2797};
+    var cd = {lat: 43.2548, lng: 6.6379};
+
     var map = new google.maps.Map(document.getElementById('map'), {
         zoom: 2,
-        center: {lat: 25, lng: 0}
+        center: {lat: 30, lng: 0}
     });
 
 var tpContentString = '<div id="content">'+
@@ -423,7 +429,7 @@ var psContentString = '<div id="content">'+
 '<h1 id="firstHeading" class="firstHeading">Paris</h1>'+
 '<div id="bodyContent">'+
 '<p>' +
-'Last visited March, 2015</p>'+
+'Last visited December, 2017</p>'+
 '</div>'+
 '</div>';
 
@@ -685,6 +691,127 @@ var dcMarker = new google.maps.Marker({
 dcMarker.addListener('click', function() {
     dcInfowindow.open(map, dcMarker);
 });
+
+// ALBANIA
+var alContentString = '<div id="content">'+
+'<div id="siteNotice">'+
+'</div>'+
+'<h1 id="firstHeading" class="firstHeading">Albania</h1>'+
+'<div id="bodyContent">'+
+'<p>' +
+'Last visited November, 2017</p>'+
+'</div>'+
+'</div>';
+var alInfowindow = new google.maps.InfoWindow({
+    content: alContentString
+});
+
+var alMarker = new google.maps.Marker({
+    position: al,
+    map: map,
+    title: 'Albania'
+});
+
+alMarker.addListener('click', function() {
+    alInfowindow.open(map, alMarker);
+});
+
+// KOSOVO
+var koContentString = '<div id="content">'+
+'<div id="siteNotice">'+
+'</div>'+
+'<h1 id="firstHeading" class="firstHeading">Kosovo</h1>'+
+'<div id="bodyContent">'+
+'<p>' +
+'Last visited November, 2017</p>'+
+'</div>'+
+'</div>';
+var koInfowindow = new google.maps.InfoWindow({
+    content: koContentString
+});
+
+var koMarker = new google.maps.Marker({
+    position: ko,
+    map: map,
+    title: 'Kosovo'
+});
+
+koMarker.addListener('click', function() {
+    koInfowindow.open(map, koMarker);
+});
+
+// MUNICH
+var muContentString = '<div id="content">'+
+'<div id="siteNotice">'+
+'</div>'+
+'<h1 id="firstHeading" class="firstHeading">Munich</h1>'+
+'<div id="bodyContent">'+
+'<p>' +
+'Last visited September, 2017</p>'+
+'</div>'+
+'</div>';
+var muInfowindow = new google.maps.InfoWindow({
+    content: muContentString
+});
+
+var muMarker = new google.maps.Marker({
+    position: mu,
+    map: map,
+    title: 'Munich'
+});
+
+muMarker.addListener('click', function() {
+    muInfowindow.open(map, muMarker);
+});
+
+// VILNIUS
+var vnContentString = '<div id="content">'+
+'<div id="siteNotice">'+
+'</div>'+
+'<h1 id="firstHeading" class="firstHeading">Vilnius</h1>'+
+'<div id="bodyContent">'+
+'<p>' +
+'Last visited October, 2017</p>'+
+'</div>'+
+'</div>';
+var vnInfowindow = new google.maps.InfoWindow({
+    content: vnContentString
+});
+
+var vnMarker = new google.maps.Marker({
+    position: vn,
+    map: map,
+    title: 'Vilnius'
+});
+
+vnMarker.addListener('click', function() {
+    vnInfowindow.open(map, vnMarker);
+});
+
+// COTES D'AZUR
+var cdContentString = '<div id="content">'+
+'<div id="siteNotice">'+
+'</div>'+
+'<h1 id="firstHeading" class="firstHeading">Cotes D\'Azur</h1>'+
+'<div id="bodyContent">'+
+'<p>' +
+'Last visited October, 2017</p>'+
+'</div>'+
+'</div>';
+var cdInfowindow = new google.maps.InfoWindow({
+    content: cdContentString
+});
+
+var cdMarker = new google.maps.Marker({
+    position: cd,
+    map: map,
+    title: 'Cotes D\'Azur'
+});
+
+cdMarker.addListener('click', function() {
+    cdInfowindow.open(map, cdMarker);
+});
+
 // ******************************************
 // GOOGLE MAPS TEXT OVERLAY
 // ******************************************
@@ -692,4 +819,3 @@ dcMarker.addListener('click', function() {
 var myControl = document.getElementById('mapTitle');
 map.controls[google.maps.ControlPosition.TOP_CENTER].push(myControl);
 }
-
